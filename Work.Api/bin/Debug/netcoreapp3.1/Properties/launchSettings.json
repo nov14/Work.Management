@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings",
+  "profiles": {
+    "Work.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/companies",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5000"
+    }
+  }
+}

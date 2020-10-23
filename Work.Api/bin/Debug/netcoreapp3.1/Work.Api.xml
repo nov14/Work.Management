@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Work.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Work.Api.Controllers.CompaniesController">
+            <summary>
+            公司管理
+            </summary>
+        </member>
+        <member name="M:Work.Api.Controllers.CompaniesController.GetCompanies(Work.Api.DtoParameters.CompanyDtoParameter)">
+            <summary>
+            获取所有公司的集合
+            </summary>
+            <param name="parameters"></param>
+            <returns>公司集合</returns>
+        </member>
+        <member name="T:Work.Api.Controllers.EmployeesController">
+            <summary>
+            员工管理
+            </summary>
+        </member>
+        <member name="T:Work.Api.Controllers.LoginController">
+            <summary>
+            登录
+            </summary>
+        </member>
+        <member name="T:Work.Api.Entities.Company">
+            <summary>
+            公司实体
+            </summary>
+        </member>
+        <member name="P:Work.Api.Entities.Company.Id">
+            <summary>
+            公司Id
+            </summary>
+        </member>
+        <member name="P:Work.Api.Entities.Company.Name">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:Work.Api.Entities.Company.Introduction">
+            <summary>
+            公司简介
+            </summary>
+        </member>
+        <member name="T:Work.Api.Helpers.AuthHelper.PermissionHandler">
+            <summary>
+            token授权处理器
+            </summary>
+        </member>
+        <member name="T:Work.Api.Helpers.AuthHelper.PermissionRequirement">
+            <summary>
+            授权参数类
+            </summary>
+        </member>
+        <member name="P:Work.Api.Models.CompanyDto.Id">
+            <summary>
+            公司Id
+            </summary>
+        </member>
+        <member name="P:Work.Api.Models.CompanyDto.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="T:Work.Api.Models.TokenModel">
+            <summary>
+            令牌类，用于存储客户端的一些基本信息
+            </summary>
+        </member>
+        <member name="P:Work.Api.Models.TokenModel.Uid">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:Work.Api.Models.TokenModel.Uname">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Work.Api.Models.TokenModel.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+    </members>
+</doc>
